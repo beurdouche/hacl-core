@@ -4,11 +4,13 @@ MERKLE_TREE_HOME = ../c
 KREMLIN_HOME ?= ../../../kremlin
 HACL_HOME ?= ../../..
 EVERCRYPT_HOME=../../../providers/out
+EVERCRYPT_INCLUDE=../../../providers/generated
 
 INCLUDE_DIRS = \
   $(MERKLE_TREE_HOME) \
   $(KREMLIN_HOME)/include \
-  $(KREMLIN_HOME)/kremlib
+  $(KREMLIN_HOME)/kremlib \
+	$(EVERCRYPT_INCLUDE)
 
 CFLAGS += $(addprefix -I ,$(INCLUDE_DIRS)) -Wall -Wextra -Werror \
   -Wno-parentheses -Wno-unused-parameter -Wno-unused-variable -Wno-infinite-recursion
@@ -34,4 +36,4 @@ test-asan: all
 	clang -O1 -g -fsanitize=address -fno-omit-frame-pointer $(CFLAGS) $(IN_TEST_C) -o $(OUT_TEST).asan $(LD_ARGS)
 
 clean:
-	rm -rf $(OUT_TEST)
+	rm -rf $(OUT_TEST) $(OUT_TEST).asan
