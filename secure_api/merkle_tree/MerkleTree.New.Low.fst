@@ -308,6 +308,7 @@ private val hash_vv_as_seq_get_index:
                   j < V.size_of (V.get h hvv i)))
         (ensures (Rgl?.r_repr hreg h (V.get h (V.get h hvv i) j) ==
                  S.index (S.index (RV.as_seq h hvv) (U32.v i)) (U32.v j)))
+
 #reset-options "--z3rlimit 20"
 private let hash_vv_as_seq_get_index h hvv i j = ()
 
@@ -1595,8 +1596,7 @@ private val construct_rhs:
      (Rgl?.r_repr hvreg h1 rhs, Rgl?.r_repr hreg h1 acc))))
    (decreases (U32.v j))
 #reset-options "--z3rlimit 1000 --initial_fuel 1 --max_fuel 1 --initial_ifuel 0 --max_ifuel 0"
-// cwinter: this is slow but it verifies in interactive mode. 
-#set-options "--admit_smt_queries true"
+// cwinter: this verifies in interactive mode, but not always in unattended mode.
 private let rec construct_rhs lv hs rhs i j acc actd =
   let hh0 = HST.get () in
   let ofs = offset_of i in
