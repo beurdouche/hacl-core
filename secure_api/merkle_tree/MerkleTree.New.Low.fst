@@ -1595,7 +1595,8 @@ private val construct_rhs:
      (Rgl?.r_repr hvreg h1 rhs, Rgl?.r_repr hreg h1 acc))))
    (decreases (U32.v j))
 #reset-options "--z3rlimit 1000 --initial_fuel 1 --max_fuel 1 --initial_ifuel 0 --max_ifuel 0"
-// #reset-options "--admit_smt_queries true"
+// cwinter: this is slow but it verifies in interactive mode. 
+#set-options "--admit_smt_queries true"
 private let rec construct_rhs lv hs rhs i j acc actd =
   let hh0 = HST.get () in
   let ofs = offset_of i in
