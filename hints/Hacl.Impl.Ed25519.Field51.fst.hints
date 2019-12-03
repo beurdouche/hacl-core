@@ -65,7 +65,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "9d7757c31e34f7fc011c646273ca9882"
+      "65ffe5bcc855dddbeb36627cb464ff38"
     ],
     [
       "Hacl.Impl.Ed25519.Field51.point_inv_t",
@@ -132,7 +132,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "0d7d955a98082c9e17cb6bf5e75e8bd5"
+      "1411020aafea7f42027b3d8280b0fbdf"
     ]
   ]
 ]

@@ -22,12 +22,10 @@ else
 endif
 
 # TODO: no more separate variable definitions?
-# LIB_DIR should only contain one element
 LIB_DIR		= $(HACL_HOME)/lib
-TUTORIAL_DIR = $(HACL_HOME)/lib/tutorial
-SPECS_DIR 	= $(HACL_HOME)/specs $(addprefix $(HACL_HOME)/specs/,lemmas alternative experimental tests drbg frodo frodo/params-64-cSHAKE)
-CODE_DIRS	= $(addprefix $(HACL_HOME)/code/,hash hmac hkdf drbg hpke sha3 poly1305 \
-  chacha20 chacha20poly1305 curve25519 tests ed25519 salsa20 nacl-box meta frodo frodo/params-64-cSHAKE experimental/qtesla experimental/qtesla/params-I experimental/qtesla/platform-64)
+SPECS_DIR 	= $(HACL_HOME)/specs $(addprefix $(HACL_HOME)/specs/,lemmas tests drbg frodo frodo/params-64-cSHAKE)
+CODE_DIRS	= $(addprefix $(HACL_HOME)/code/,hash hmac hkdf drbg sha3 poly1305 \
+  chacha20 chacha20poly1305 curve25519 tests ed25519 salsa20 nacl-box meta frodo frodo/params-64-cSHAKE)
 EVERCRYPT_DIRS  = $(addprefix $(HACL_HOME)/providers/,evercrypt evercrypt/fst test test/vectors evercrypt/config/$(EVERCRYPT_CONFIG))
 MERKLE_DIRS	= $(HACL_HOME)/secure_api/merkle_tree
 # Vale dirs also include directories that only contain .vaf files
@@ -63,7 +61,7 @@ VALE_DIRS	= \
   $(HACL_HOME)/vale/specs/math
 
 ALL_HACL_SOURCE_DIRS = \
-  $(LIB_DIR) $(TUTORIAL_DIR) $(SPECS_DIR) $(CODE_DIRS) $(VALE_DIRS) \
+  $(LIB_DIR) $(SPECS_DIR) $(CODE_DIRS) $(VALE_DIRS) \
   $(EVERCRYPT_DIRS) $(MERKLE_DIRS) \
   $(KREMLIN_HOME)/runtime
 

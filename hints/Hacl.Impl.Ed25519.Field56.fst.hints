@@ -61,7 +61,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "bfb117b449672a196d77f4b524c753b5"
+      "f2c7f31040a78d2a62005f4fa7dfc3f9"
     ],
     [
       "Hacl.Impl.Ed25519.Field56.as_nat10",
@@ -123,7 +123,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "e7b1f4a4634ae2cca94110269d3d4119"
+      "d44b16d6ac8cd02885b3a14dd6c28c54"
     ],
     [
       "Hacl.Impl.Ed25519.Field56.fevalh",
@@ -145,7 +145,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "9e6b9be743b3fa183390951b3106dd5a"
+      "b02606ad7fbb801dbf100dd6b6c8f8c1"
     ],
     [
       "Hacl.Impl.Ed25519.Field56.felem_fits",
@@ -207,7 +207,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "eaa3de7faaa93c7a46ceac3a16d5bc95"
+      "190e7f449c400ff5feb44c320d501d3f"
     ],
     [
       "Hacl.Impl.Ed25519.Field56.feval_wide9",
@@ -269,7 +269,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "736a70e6c9c79b558ae80dc54edf17a5"
+      "bda614e232dae51ee8dc1598445e35a2"
     ]
   ]
 ]

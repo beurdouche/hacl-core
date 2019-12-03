@@ -56,7 +56,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "5e1a7784ed5cd2caef66652ba36e1968"
+      "82851657f8b8bca7badb2ef6e6632666"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.wide_as_nat",
@@ -113,7 +113,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "ee2bd55eebd0f9871974ced08f0f4155"
+      "8c63afa8ab6167fe8b57f77793e07bc2"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.qelem_fits",
@@ -170,7 +170,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "fe4b2c2387b142b8ea816643d4a9ae88"
+      "d1467cc378bcd5a4f78c9b219027e61e"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.qelem_wide_fits",
@@ -227,7 +227,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "09a42e37773aecb515023951feca6af5"
+      "60535a27074bf19a09c6a447373b0da3"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.barrett_reduction",
@@ -283,7 +283,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "c199a84f3fde8b5b8b02323b9491cab7"
+      "d431daeda8bdbac4cff94c6ea601d5be"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.mul_modq",
@@ -335,7 +335,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "83b6c537accfc62b90d5314b9c8a2c7d"
+      "fc527ebfb57554958f189dac16536588"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.add_modq",
@@ -387,7 +387,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "a118cb63cb972123afabbc7fa76ee907"
+      "21417e85237c931680463c94ad2aac71"
     ]
   ]
 ]
